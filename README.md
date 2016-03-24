@@ -1,4 +1,8 @@
-# practice
+# Welcome to here
+
+![Alt text][avatar]
+
+<br>
 
 ## 1. aid
 
@@ -14,3 +18,12 @@ add ```~/.ssh/id_rsa.pub``` to your github accout Settings ___SSH keys___
 and that's okokok and you are not have to type your username & password everytime push.
 
 It's cool.
+
+
+
+
+
+
+
+
+[avatar]: https://avatars3.githubusercontent.com/u/13919034?v=3&s=96
