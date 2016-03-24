@@ -9,6 +9,8 @@
 
 ```$ ssh-keygen -t rsa -C 'your@email'```
 
-add ~/.ssh/id_rsa.pub to your github accout Settings _SSH keys_ 
+add ```~/.ssh/id_rsa.pub``` to your github accout Settings ___SSH keys___ 
 
-okokok
+and that's okokok and you are not have to type your username & password everytime push.
+
+It's cool.
