@@ -11,4 +11,4 @@
 
 add ~/.ssh/id_rsa.pub to your github accout Settings _SSH keys_ 
 
-ok
+okokok
