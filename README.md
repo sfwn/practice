@@ -1,36 +1,37 @@
-# Welcome to here
+# Welcome to here  
 
-![my avatar][avatar]  
-  
-  
+![my avatar][avatar: url]  
 
-## Aid
+[csdn](http://blog.csdn.net/shifangwannian)
 
-to practice my git skill
+## Aid  
 
-## Q&A 
+to practice my git skill  
 
-### 1. ssh
+## Q&A  
 
-```$ ssh-keygen -t rsa -C 'your@email'```
+### 1. ssh  
 
-add ```~/.ssh/id_rsa.pub``` to your github accout Settings ___SSH keys___ 
+- ```$ ssh-keygen -t rsa -C 'your@email'```  
 
-and that's okokok and you are not have to type your username & password everytime push.
+- add ```~/.ssh/id_rsa.pub``` to your github accout Settings ___SSH keys___  
 
-It's cool.
+- and that's okokok and you are not have to type your username & password everytime push.  
 
-### 2. ```git status -s```
+**It's cool.**  
 
-```
+### 2. ```git status -s```  
+
+~~~
 $ git status -s
  M README
 MM Rakefile
 A  lib/git.rb
 M  lib/simplegit.rb
 ?? LICENSE.txt
-```  
-let's look a table below:  
+~~~  
+
+let's look a ***table*** below:  
 
 |left|right|example|what's the meaning|  
 |:--:|:--:|:--:|--:|
@@ -39,7 +40,8 @@ let's look a table below:
 ||M|example.md|modified without staged|  
 |M|M|example.md|modified&staged but modified again without staged|  
 |?|?|example.md|untracked file|  
-  
+
+### 3. TODO
 
  
 
@@ -54,4 +56,4 @@ let's look a table below:
 
 
 
-[avatar]: https://avatars3.githubusercontent.com/u/13919034?v=3&s=96
+[avatar: url]: https://avatars3.githubusercontent.com/u/13919034?v=3&s=96
