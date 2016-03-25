@@ -41,8 +41,20 @@ let's look a ***table*** below:
 |M|M|example.md|modified&staged but modified again without staged|  
 |?|?|example.md|untracked file|  
 
-### 3. TODO
+### 3. ```git fetch -p```  
 
+**scene**: remote branch _linjun_ has been deleted, but local branch _linjun_ still exist.  
+**aid**: to delete local branch _linjun_
+
+```
+~/paas-console$ git fetch -p
+Username for 'http://git.terminus.io': lj@terminus.io
+Password for 'http://lj@terminus.io@git.terminus.io':
+From http://git.terminus.io/pampas/paas-console
+ x [deleted]         (none)     -> origin/linjun
+```
+
+### 4. TODO
  
 
 
