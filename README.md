@@ -54,8 +54,26 @@ From http://git.terminus.io/pampas/paas-console
  x [deleted]         (none)     -> origin/linjun
 ```
 
-### 4. TODO
- 
+### 4. new branch and push to it  
+
+- ```$ git branch sfwn```  
+
+- ```$ git checkout sfwn```  
+
+- do something and commit  
+
+- ```$ git push```  
+
+> fatal: The current branch sfwn has no upstream branch.  
+> To push the current branch and set the remote as upstream, use
+
+>    ```git push --set-upstream origin sfwn```  
+
+- ```$ git push --set-upstream origin sfwn```  
+
+- ```$ git push```  
+
+- ok
 
 
 
