@@ -20,6 +20,22 @@ to practice my git skill
 
 **It's cool.**  
 
+***notice:***  
+
+> ```$ ssh-keygen```  
+> Generating public/private rsa key pair.  
+> Enter file in which to save the key (/Users/sfwn/.ssh/id_rsa):~/.ssh/id_example  
+> Enter passphrase (empty for no passphrase):  
+> Enter same passphrase again:  
+> Saving key "~/.ssh/id_example" failed: No such file or directory
+
+**solution:**  
+> I suppose the reason why openssh cannot find '~/.ssh/id_example' is that openssh cannot recognize the environment path in it, whatever it is "~" or "HOME".  
+> But if you type like this: ```Enter file in which to save the key (/Users/sfwn/.ssh/id_rsa):/Users/sfwn/.ssh/id_example```, it works well and you can generate the ssh key pairs where you want to put.  
+> Also you can solve this question by add param ***'-f'*** to specify the path like this below:  
+> ```$ ssh-keygen -f ~/.ssh/id_example``` or ```$ ssh-keygen -f $HOME/.ssh/id_example```  
+> the environment variables can be recognized in terminal so openssh konws where to put the key pairs. And it won't prompt "no such file or directory" anymore.
+
 ### 2. ```git status -s```  
 
 ~~~
